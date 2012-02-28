@@ -9,9 +9,9 @@
  */
 function humanitarianresponse_funding_taxonomy_default_vocabularies() {
   return array(
-    'funding_mechanisms' => array(
+    'funding' => array(
       'name' => 'Funding mechanisms',
-      'machine_name' => 'funding_mechanisms',
+      'machine_name' => 'funding',
       'description' => '',
       'hierarchy' => '0',
       'module' => 'taxonomy',
