@@ -115,18 +115,6 @@ function humanitarianresponse_funding_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
-  $translatables['funding'] = array(
-    t('Master'),
-    t('Funding mechanisms'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Page'),
-    t('Block'),
-  );
   $export['funding'] = $view;
 
   return $export;
