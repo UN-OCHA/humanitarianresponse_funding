@@ -10,7 +10,6 @@ dependencies[] = views
 dependencies[] = vppr
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
-features[field][] = taxonomy_term-funding-description_field
 features[field][] = taxonomy_term-funding-name_field
 features[taxonomy][] = funding
 features[user_permission][] = administer funding vocabulary terms
