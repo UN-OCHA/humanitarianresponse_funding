@@ -23,6 +23,7 @@ function humanitarianresponse_funding_feeds_importer_default() {
         'auto_detect_feeds' => FALSE,
         'use_pubsubhubbub' => FALSE,
         'designated_hub' => '',
+        'source' => 'http://terms.humanitarianresponse.info/funding.csv',
       ),
     ),
     'parser' => array(
