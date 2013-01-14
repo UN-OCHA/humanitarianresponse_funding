@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ */
+ 
+/**
+ * Add feed importer into database
+ */
+function humanitarianresponse_funding_update_7100() {
+  $source = feeds_source('csv_funding');
+  $source->addConfig(array('FeedsHTTPFetcher' => array('source' => 'http://terms.humanitarianresponse.info/funding.csv')));
+  $source->save();
+}
