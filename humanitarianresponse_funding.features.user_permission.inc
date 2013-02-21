@@ -14,8 +14,8 @@ function humanitarianresponse_funding_user_default_permissions() {
   $permissions['administer funding vocabulary terms'] = array(
     'name' => 'administer funding vocabulary terms',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'vppr',
   );
