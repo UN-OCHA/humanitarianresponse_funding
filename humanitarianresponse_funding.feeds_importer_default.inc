@@ -35,7 +35,7 @@ function humanitarianresponse_funding_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsTermProcessor',
       'config' => array(
-        'vocabulary' => 'funding',
+        'bundle' => 'funding',
         'mappings' => array(
           0 => array(
             'source' => 'Name:en',
