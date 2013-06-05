@@ -53,6 +53,11 @@ function humanitarianresponse_funding_feeds_importer_default() {
             'unique' => FALSE,
           ),
           3 => array(
+            'source' => 'Name:es',
+            'target' => 'name_field:et:es',
+            'unique' => FALSE,
+          ),
+          4 => array(
             'source' => 'GUID',
             'target' => 'guid',
             'unique' => 1,
